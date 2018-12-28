@@ -1,6 +1,7 @@
-let loop = require('deasync').runLoopOnce
+module.exports = wait
+const deasync = require('deasync')
 
-module.exports = function (awaitable) {
+function wait (awaitable) {
   let result
   let error
   let done = false
@@ -14,10 +15,7 @@ module.exports = function (awaitable) {
   }).then(function () {
     done = true
   })
-  // eslint-disable-next-line
-  while (!done) {
-    loop()
-  }
+  deasync.loopWhile(() => !done)
   if (error) {
     throw error
   }

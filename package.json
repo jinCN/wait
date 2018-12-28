@@ -1,6 +1,6 @@
 {
   "name": "@mybug/wait",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "await anything synchronously",
   "main": "index.js",
   "engines": {
@@ -15,6 +15,11 @@
   "keywords": [
     "wait",
     "await",
+    "awaitor",
+    "awaitable",
+    "waitable",
+    "callback",
+    "thunk",
     "mybug",
     "promise",
     "async",
