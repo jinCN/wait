@@ -1,5 +1,5 @@
 {
-  "name": "json-hand",
+  "name": "@mybug/wait",
   "version": "0.1.1",
   "description": "await anything synchronously",
   "main": "index.js",
