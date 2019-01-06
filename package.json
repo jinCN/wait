@@ -1,18 +1,20 @@
 {
-  "name": "@mybug/wait",
-  "version": "0.1.3",
+  "name": "@superjs/wait",
+  "version": "1.1.4",
   "description": "await anything synchronously",
   "main": "index.js",
   "engines": {
     "node": ">=6"
   },
-  "author": "mysyljr <liang.jr@foxmail.com>",
+  "author": "mr_jin <liang.jr@foxmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mysyljr/wait"
+    "url": "https://github.com/jinCN/wait"
   },
   "keywords": [
+    "super",
+    "superjs",
     "wait",
     "await",
     "awaitor",
@@ -20,7 +22,6 @@
     "waitable",
     "callback",
     "thunk",
-    "mybug",
     "promise",
     "async",
     "sync",
@@ -28,9 +29,9 @@
     "debug"
   ],
   "bugs": {
-    "url": "https://github.com/mysyljr/wait/issues"
+    "url": "https://github.com/jinCN/wait/issues"
   },
-  "homepage": "https://github.com/mysyljr/wait#readme",
+  "homepage": "https://github.com/jinCN/wait#readme",
   "scripts": {
     "lint": "standard --fix | snazzy"
   },
