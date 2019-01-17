@@ -1,10 +1,10 @@
 {
-  "name": "j-wait",
-  "version": "1.1.5",
+  "name": "@superjs/wait",
+  "version": "1.1.6",
   "description": "await anything synchronously",
   "main": "index.js",
   "engines": {
-    "node": ">=8"
+    "node": ">=6"
   },
   "author": "mr_jin <liang.jr@foxmail.com>",
   "license": "MIT",
@@ -13,12 +13,12 @@
     "url": "https://github.com/jinCN/wait"
   },
   "keywords": [
-    "j",
-    "jin",
+    "super",
+    "superjs",
     "wait",
     "await",
-    "jwait",
-    "j-wait",
+    "awaitor",
+    "awaitable",
     "waitable",
     "callback",
     "thunk",
